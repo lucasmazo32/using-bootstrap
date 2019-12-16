@@ -2,6 +2,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4F5F6;
 }
 
 .roboto {
@@ -10,6 +11,24 @@ body {
 
 .lora {
     font-family: 'Lora', serif;
+}
+
+.main-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: rgba(3,3,3,.4);
+    padding: 0 0 11px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.main-title-link {
+    text-decoration: none;
+}
+
+.main-title-link:hover {
+    text-decoration: none;
 }
 
 /* nav bar */
@@ -127,6 +146,12 @@ nav {
     background-image: url(https://g.newsweek.com/www/images/icon-search-glass.svg);
     background-repeat: no-repeat;
     background-size: 20px;
+    background-position: 60px 17px;
+}
+
+.nav-links input:focus {
+    flex-grow: 10;
+    background-image: none;
 }
 
 .nav-link{
@@ -142,6 +167,74 @@ nav {
 .nav-links a:hover {
     color: #f72210;
 }
+
+/* Main section */
+
+main {
+    padding: 20px 30px 0;
+    border-top: solid 1px #d9d9d9;
+    background-color: white;
+}
+
+/* main article styling */
+
+.ma1 {
+    background-image: url(https://d.newsweek.com/en/full/1553356/border-wall.jpg?w=397&h=265&q=90&f=99c648bbceb487fcd5428f5f7c9a2c50);
+}
+
+.ma2 {
+    background-image: url(https://d.newsweek.com/en/full/1553679/bashar-al-assad-syria-us-oil-smuggle-steal.jpg?w=397&h=265&q=90&f=e87d2d44580a74705650e35db439ec17);
+}
+
+.ma3 {
+    background-image: url(https://d.newsweek.com/en/full/1553541/indiana-university.jpg?w=397&h=265&q=90&f=0408b91bd2e5e16d48be033792043281);
+}
+
+.ma4 {
+    background-image: url(https://d.newsweek.com/en/full/1543729/americas-best-stem-high-schools-2020.jpg?w=397&h=265&q=90&f=9f2c1f657ec2d1db899da25b4bcec062);
+}
+
+.ma5 {
+    background-image: url(https://d.newsweek.com/en/full/1553686/trump-bolton.webp?w=591&h=364&f=c1f70f4926ce85e1e3188508f42459c9);
+}
+
+.main-article a:first-of-type {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-bottom: 66%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-article a span {
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(255,255,255,.9);
+    color: #f72210;
+    bottom: 0;
+    left: 0;
+    padding: 8px 15px 9px;
+}
+
+.main-article a h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+
+.main-article a:last-of-type {
+    text-decoration-color: #f72210;
+}
+
+/* continue main section */
+
+/* Media query */
 
 @media screen and (max-width: 991px){
     .date {
@@ -203,5 +296,9 @@ nav {
         background-color: #fb9a94;;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    nav {
+        display: none;
     }
 }
