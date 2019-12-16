@@ -34,12 +34,12 @@ body {
     font-size: 16px;
 }
 
-.date, .nav-links {
+.date, .header-links {
     display: flex;
     align-items: flex-end;
 }
 
-.nav-links {
+.header-links {
     justify-content: flex-end;
 }
 
@@ -85,4 +85,123 @@ body {
     top: 0;
     left: 50%;
     padding: 10px 0;
+}
+
+nav {
+    max-width: 1310px;
+    margin: 0 -15px;
+    background-color: white;
+    padding: 15px 0;
+}
+
+.nav-links {
+    margin-bottom: 0;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav-links li {
+    border-right: solid 1px #d9d9d9;
+    padding: 0 auto;
+    flex-grow: 1;
+}
+
+.nav-links .li-border {
+    border-right: 0px;
+}
+
+.nav-links li:last-of-type {
+    display: flex;
+    height: 24px;
+    border-right: 0px;
+    justify-content: center;
+    padding: 0 !important;
+}
+
+.nav-links input {
+    border: none;
+    width: 80px;
+    height: 54px;
+    margin: -15px 0;
+    font-size: 16px;
+    background-image: url(https://g.newsweek.com/www/images/icon-search-glass.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.nav-link{
+    display: block;
+    padding: 0 0 !important;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 24px;
+    color: black;
+}
+
+.nav-links a:hover {
+    color: #f72210;
+}
+
+@media screen and (max-width: 991px){
+    .date {
+        display: none;
+    }
+
+    .header-links {
+        margin: auto 0;
+        margin-right: 74px;
+    }
+
+    .nav-row {
+        height: 50px;
+        align-content: center;
+    }
+
+    .nav-logo svg{
+        display: block;
+        fill: white;
+        width: 132px;
+        height: 20px;
+        margin: 0;
+    }
+    
+    .nav-logo {
+        position: absolute;
+        transform: translate(0,0);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        padding: 15px;
+    }
+
+    .hamburger {
+        position: absolute;
+        display: flex;
+        right: 0;
+        top: 0;
+        width: 74px;
+        height: 50px;
+        flex-flow: column;
+        cursor: pointer;
+        justify-content: center;
+    }
+
+    .hamburger-icon {
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: #fb9a94;
+        margin: 4px auto;
+    }
+
+    .hamburger::before, .hamburger::after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: #fb9a94;;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
