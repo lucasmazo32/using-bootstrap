@@ -74,6 +74,10 @@ body {
     color: #f72210;
 }
 
+.upp {
+    text-transform: uppercase;
+}
+
 /* background */
 
 .cult-bkg {
@@ -588,6 +592,194 @@ nav {
     display: block;
     font-size: 15px;
     color: #333333;
+}
+
+/* Page bottom */
+
+.page-bottom {
+    margin-top: 20px;
+}
+
+/* magazine */
+
+.magazine-row-2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Dr amazon */
+
+.dr-amazon {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.dr-amazon a {
+    position: relative;
+    width: 100%;
+}
+
+.dr-amazon a img {
+    width: 100%;
+    height: auto;
+}
+
+.dr-amazon a span {
+    position: absolute;
+    width: max-content;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px;
+    background-color: rgba(255,255,255,.9);
+    color: #f72210;
+    line-height: 33px;
+    font-size: 16px;
+}
+
+.see-all {
+    display: inline-block;
+    background-color: #f4f5f6;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px 10px 10px 12px;
+}
+
+.see-all::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    margin-left: 10px;
+    background: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg) center/contain no-repeat;
+    color: black;
+}
+
+.see-all:hover {
+    color: black;
+    background-color: #666;
+}
+
+/* magazine title */
+
+.magazine-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    border-bottom: solid 1px #ddd;
+}
+
+.magazine-title h4 {
+    display: block;
+    width: 29px;
+    height: 28px;
+    color: #333333;
+    background-color: #f72210;
+    background-image: url(https://g.newsweek.com/www/images/logo-n1.svg);
+    background-size: center/contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+/* magazine article */
+
+.mag1 {
+    background-image: url(https://d.newsweek.com/en/full/1550220/health-care-telemedicine-digital-medicine-tech.webp?w=466&h=311&q=90&f=942d1590e033f78a23e537e59fa9fbd0);
+}
+
+.mag2 {
+    background-image: url(https://d.newsweek.com/en/full/1552796/fe-dramazon-sb-drgoogle-banner.webp?w=466&h=311&l=56&t=45&q=90&f=41c24c9e96e46d3fd12b75b23d08710c);
+}
+
+.mag3 {
+    background-image: url(https://d.newsweek.com/en/full/1552304/fe-jimmywales-01-450700954-banner.webp?w=466&h=311&l=54&t=47&q=90&f=2d292f2489a2a529a519ae0f06754fda);
+}
+
+.mag4 {
+    background-image: url(https://d.newsweek.com/en/full/1552314/per-salary-banner.webp?w=466&h=311&l=50&t=43&q=90&f=2186facaa395f2caed7d3d0fe42fcf9d);
+}
+
+.mag5 {
+    background-image: url(https://d.newsweek.com/en/full/1552298/cul-kaceymusgraves-01-1183498174-banner.webp?w=466&h=311&l=49&t=25&q=90&f=cf9171a0c55e814d0fd50741ff506236);
+}
+
+.mag6 {
+    background-image: url(https://d.newsweek.com/en/full/1552303/cul-ps-harper-banner.webp?w=466&h=311&l=44&t=40&q=90&f=fa181d4793b943b2c54641922a637558);
+}
+
+.mag7 {
+    background-image: url(https://d.newsweek.com/en/full/1552325/helping-hand.webp?w=480&h=320&l=46&t=56&q=90&f=9ed5920369774841b7e06e46b8dca8fa);
+}
+
+.magazine-article-img {
+    display: block;
+    padding-bottom: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.magazine-article div {
+    color: #f72210;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.magazine-article div span {
+    display: inline-block;
+    line-height: 26px;
+}
+
+.magazine-article div span:first-of-type {
+    padding: 0 7px;
+    background-color: #f72210;
+    color: white;
+    margin-right: 7px;
+    line-height: 26px;
+}
+
+.magazine-article div span a {
+    color: red;
+    text-decoration: none;
+}
+
+.magazine-article-text h3 {
+    font-size: 20px;
+}
+
+/* Last magazine article */
+
+.magazine-article-img-last {
+    display: block;
+    position: relative;
+    padding-bottom: 110%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.magazine-article-last span {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    padding: 0 7px;
+    background-color: #f72210;
+    color: white;
+    margin-right: 7px;
+    line-height: 26px;
 }
 
 /* Media query */
