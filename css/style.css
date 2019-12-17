@@ -253,6 +253,40 @@ nav {
     background-image: url(https://d.newsweek.com/en/full/1553686/trump-bolton.webp?w=591&h=364&f=c1f70f4926ce85e1e3188508f42459c9);
 }
 
+.ma6 {
+    background-image: url(https://d.newsweek.com/en/full/1402224/gettyimages-624664028.webp?w=397&h=265&f=820c17e307835d16aba24431257b356d);
+}
+
+.ma7 {
+    background-image: url(https://d.newsweek.com/en/full/1553492/jaime-harrison-lindsey-graham-sc.webp?w=397&h=265&f=0d51d6665666314d87fae72fb83a5d6d);
+}
+
+.ma8 {
+    background-image: url(https://d.newsweek.com/en/full/1553250/dounreay.webp?w=397&h=265&f=0f721cdd7b7f0157643ee2ca4b5f23d7);
+}
+
+.ma9 {
+    background-image: url(https://d.newsweek.com/en/full/1553503/new-york-city-taxis.webp?w=397&h=265&f=603c6cf1206d8dffe4e303b55c4e4e92);
+}
+
+.ma10 {
+    background-image: url(https://d.newsweek.com/en/full/1553478/same-sex-wedding.webp?w=397&h=265&f=7fdf1cac6d3761ffacd3fae29a0fff62);
+}
+
+.ma11 {
+    background-image: url(https://d.newsweek.com/en/full/1553475/joe-burrow-lsu.webp?w=397&h=265&f=62ae5705d48acd508d5961985c8858ef);
+}
+
+.ma12 {
+    background-image: url(https://d.newsweek.com/en/full/1350976/pokemon-sword-shield-sobble-trailer.webp?w=397&h=265&f=d48b0711ebe4c69b005a9b52419b3a9c);
+}
+
+.ma13 {
+    background-image: url(https://d.newsweek.com/en/full/1553462/louisiana-alligator.webp?w=397&h=265&l=0&t=0&f=6940580cb9c6fbd4284d90e130c23375);
+}
+
+
+
 .main-article a:first-of-type {
     position: relative;
     display: block;
@@ -780,6 +814,106 @@ nav {
     color: white;
     margin-right: 7px;
     line-height: 26px;
+}
+
+/* slideshow title */
+
+.slideshow-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+    border-bottom: solid 1px #ddd;
+}
+
+.slideshow-title a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.slideshow-title h4 {
+    display: block;
+    position: relative;
+    width: 29px;
+    height: 28px;
+    color: #333333;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.slideshow-title h4:after {
+    border-bottom: 3px solid red;
+    border-right: 3px solid red;
+    display: block;
+    content: "";
+    width: 26px;
+    height: 25px;
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+}
+
+/* featured slideshows */
+
+.slideshow-article {
+    margin-bottom: 40px;
+}
+
+.slide1 {
+    background-image: url(https://d.newsweek.com/en/full/1547486/lipschutz-living-room-hotel-chelsea.webp?w=397&h=265&f=fb4270bf5fbc2591cc43d24d0377621d);
+}
+
+.slide2 {
+    background-image: url(https://d.newsweek.com/en/full/1543106/2018-cup-collection.webp?w=397&h=265&f=e00260b486695409ac860cb50949464c);
+}
+
+.slide3 {
+    background-image: url(https://d.newsweek.com/en/full/1542741/holiday-cups-starbucks.webp?w=397&h=265&f=cc7b0a58452583ca846051991fe522ce);
+}
+
+.slide4 {
+    background-image: url(https://d.newsweek.com/en/full/1539646/first-wives-club-pumpkin.webp?w=397&h=265&f=4a9ecc91f6b122866651645aed974cf6);
+}
+
+.slide5 {
+    background-image: url(https://d.newsweek.com/en/full/1534277/nycc-2019-best-cosplay-augustus-st-cloud.webp?w=397&h=265&l=22&t=27&f=db0895c475d903e09b054be0c3cfb8c5);
+}
+
+.slide6 {
+    background-image: url(https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.webp?w=397&h=265&f=f340356025a2be1523d3102736a02f42);
+}
+
+.slideshow-img {
+    display: block;
+    position: relative;
+    padding-bottom: 66.7506%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.slideshow-img span {
+    width: 70px;
+    height: 52px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+    color: #e9212e;
+}
+
+.slideshow-text {
+    font-size: 22px;
 }
 
 /* Media query */
