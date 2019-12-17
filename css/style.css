@@ -47,6 +47,17 @@ body {
     padding: 10px;
 }
 
+.black-under-red {
+    text-decoration: none;
+    color: black;
+}
+
+.black-under-red:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+}
+
 /* background */
 
 .cult-bkg {
@@ -258,6 +269,10 @@ nav {
 
 /* Culture and travel */
 
+.culture-travel-wrapper {
+    margin-bottom: 15px;
+}
+
 .culture1 {
     background-image: url(https://d.newsweek.com/en/full/1552293/cul-map-underwater-banner.webp?w=397&h=265&f=556690dba11324f197a04f43aadde8fa);
 }
@@ -320,6 +335,72 @@ nav {
 .culture-travel article div a:last-of-type:hover {
     color: #c2d4d7;
     background-color: #272727;
+}
+
+/* more stories */
+
+.more-stories .row {
+    border-top: 1px solid #ddd;
+}
+
+.more1 {
+    background-image: url(https://d.newsweek.com/en/full/1553640/boris-johnson-uk-russia-report-interference-election.webp?w=135&h=90&f=99f2c100f15dd5d0ca7aeb36b40df9aa);
+}
+
+.more2 {
+    background-image: url(https://d.newsweek.com/en/full/1553566/cory-booker.webp?w=135&h=90&f=b6cd2cbc7cf9ca66d1fc2e3a433dbc39);
+}
+
+.more3 {
+    background-image: url(https://d.newsweek.com/en/full/1553583/donald-trump-vladimir-putin-russia-us-relationship.webp?w=135&h=90&f=3819d5bdb0dceb36b73f36c4dd19c90f);
+}
+
+.more4 {
+    background-image: url(https://d.newsweek.com/en/full/1553636/barack-obama.webp?w=135&h=90&f=fd2ae8ace9af16a5042817ae605768ab);
+}
+
+.more5 {
+    background-image: url(https://d.newsweek.com/en/full/1553556/stephen-biegun-north-korea-south-korea-denuclearization.webp?w=135&h=90&f=18d2e1b3331712c14a6c3e3b144e6698);
+}
+
+.more6 {
+    background-image: url(https://d.newsweek.com/en/full/1553674/harvey-weinstein-page-six-forgotten-man-criticism.webp?w=135&h=90&f=43a1cdbdc16a481bc924770a59d77572);
+}
+
+.more7 {
+    background-image: url(https://d.newsweek.com/en/full/1553512/rudy-giuliani-twitter-ukraine-trip.webp?w=135&h=90&f=d1557ebdf1f5449757a3aa905305f605);
+}
+
+.more8 {
+    background-image: url(https://d.newsweek.com/en/full/1553504/james-comey-fox-news-sunday.webp?w=135&h=90&f=8e9c0691b8478cf568653ba49f35ab18);
+}
+
+.more9 {
+    background-image: url(https://d.newsweek.com/en/full/1553507/army-navy-game-trump.webp?w=135&h=90&f=2ccaac45244b21d62a8a6d4d154ec8f0);
+    margin-bottom: 1rem;
+}
+
+.more10 {
+    background-image: url(https://d.newsweek.com/en/full/1553499/fox-news-poll-trump-impeach.webp?w=135&h=90&f=34e61113ab11b9a3d47f7103422b6d9c);
+}
+
+.more-stories-img a {
+    display: block;
+    padding-bottom: 66.7506%;
+    width: 100%;
+    margin-top: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.more-stories article {
+    margin-top: 1rem;
+}
+
+.more-stories article h3 {
+    font-size: 17px;
+    font-weight: bold;
 }
 
 /* continue main section */
@@ -448,5 +529,12 @@ nav {
 
     nav {
         display: none;
+    }
+}
+
+@media screen and (min-width: 991px){
+    .sticky-section {
+        position: sticky;
+        top: -75%;
     }
 }
