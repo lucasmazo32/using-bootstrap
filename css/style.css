@@ -116,21 +116,10 @@ body {
 
 /* nav bar */
 
-header {
-    position: sticky;
-    top: 0;
-    z-index: 5;
-}
-
 .wrapper {
     position: relative;
     max-width: 1310px;
     margin: 0 auto;
-}
-
-.nav-wrapper {
-    position: sticky;
-    top: 0;
 }
 
 .nav-row {
@@ -140,6 +129,9 @@ header {
 
 .wrapper1 {
     background-color: #f72210;
+    position: sticky;
+    top: -10px;
+    z-index: 3;
 }
 
 .date h6 {
@@ -235,7 +227,6 @@ header {
 
 nav {
     max-width: 1310px;
-    margin: 0 -15px;
     background-color: white;
     padding: 15px 0;
 }
