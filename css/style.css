@@ -88,6 +88,10 @@ body {
     background-color: #f4f5f7;;
 }
 
+.fourty-px {
+    margin-bottom: 40px;
+}
+
 /* 66 img */ 
 
 .ss-img {
@@ -148,6 +152,10 @@ body {
     padding: 6px 12px;
 }
 
+.sign-in:hover {
+    color: white;
+}
+
 .subscribe {
     display: inline-block;
     position: relative;
@@ -161,9 +169,38 @@ body {
     padding: 6px 10px 6px 12px;
 }
 
+.subscribe:hover {
+    color: #f72210;
+}
+
 .subscribe svg {
     display: inline-block;
     fill: #f72210;
+    height: 14px;
+    width: 8px;
+    margin-left: 10px;
+}
+
+.subscribe-back {
+    display: inline-block;
+    position: relative;
+    background-color: #f72210;
+    color: white;
+    font: bold 14px/14px "Roboto Condensed",sans-serif;
+    line-height: 14px;
+    font-size: 18px;
+    outline: 0;
+    text-decoration: none;
+    padding: 10px 10px 10px 12px;
+}
+
+.subscribe-back:hover {
+    color: white;
+}
+
+.subscribe-back svg {
+    display: inline-block;
+    fill: white;
     height: 14px;
     width: 8px;
     margin-left: 10px;
@@ -1097,6 +1134,85 @@ nav {
     padding-bottom: 10px;
 }
 
+/* subscribe block */
+
+.subscribe-block {
+    padding-top: 40px;
+    border-top: solid 2px #f4f5f6;
+}
+
+.subscribe-block h2 {
+    color: #f72210;
+    font-size: 16px;
+}
+
+.subscribe-block-container {
+    background-color: #f4f5f6;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+/* subscribe images */
+
+.subscribe-images {
+    display: block;
+    position: relative;
+    padding-right: 90px;
+    padding-bottom: 13px;
+}
+
+.subscribe1, .subscribe2 {
+    width: 170px;
+    height: 228px;
+}
+
+.subscribe1 {
+    position: absolute;
+    left: 90px;
+    top: 13px;
+}
+
+/* subscribe text */
+
+.subscribe-text {
+    padding-left: 30px;
+}
+
+.subscribe-text h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.subscribe-text p {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+/* newsletter block*/
+
+.newsletter-block {
+    display: flex;
+}
+
+.newsletter-img {
+    display: block;
+    width: 300%;
+    max-width: 191px;
+    background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.newsletter-text {
+    padding: 30px;
+    border: 1px solid #ebebeb;
+}
+
 /* Media query */
 
 @media screen and (max-width: 991px){
@@ -1175,5 +1291,16 @@ nav {
     .latest-sign-wrapper {
         position: sticky;
         top: -20%;
+    }
+
+
+    .newsletter-section {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .newsletter-block {
+        display: flex;
+        flex-grow: 1;
     }
 }
