@@ -1400,6 +1400,10 @@ footer {
         display: none;
     }
 
+    .wrapper1 {
+        top: 0px;
+    }
+
     .header-links {
         margin: auto 0;
         margin-right: 74px;
@@ -1508,7 +1512,7 @@ footer {
 
     .sticky-seven {
         position: sticky;
-        top: -125%;
+        top: -800px;
     }
 
 }
@@ -1516,12 +1520,12 @@ footer {
 @media screen and (min-width: 991px){
     .sticky-section {
         position: sticky;
-        top: -125%;
+        top: -800px;
     }
 
     .latest-sign-wrapper {
         position: sticky;
-        top: -70%;
+        top: -400px;
     }
 
 
