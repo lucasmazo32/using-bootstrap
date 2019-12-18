@@ -4,7 +4,7 @@ This is a layout clone of the webpage https://www.newsweek.com/
 
 ## Screenshot
 
-![Screenshot of the webpage](https://github.com/lucasmazo32/responsive-design/blob/design/Screenshot.png)
+![Screenshot of the webpage](https://github.com/lucasmazo32/using-bootstrap/blob/bootstrap/screenshot.png)
 
 ## Getting Started
 
