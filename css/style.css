@@ -1,525 +1,667 @@
 /* Fonts */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #F4F5F6;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f5f6;
 }
 
 .roboto {
-    font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .roboto-bold {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
 }
 
 .lora {
-    font-family: 'Lora', serif;
+  font-family: 'Lora', serif;
 }
 
 .main-title {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
-    color: rgba(3,3,3,.4);
-    padding: 0 0 11px;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: rgba(3, 3, 3, 0.4);
+  padding: 0 0 11px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 .dec-none {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .dec-none:hover {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .main-title-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .main-title-link:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .title-opinions {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .culture-travel-title {
-    padding: 10px;
+  padding: 10px;
 }
 
 .black-under-red {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .black-under-red:hover {
-    color: black;
-    text-decoration: underline;
-    text-decoration-color: #f72210;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
 }
 
 .black-to-red {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .black-to-red:hover {
-    text-decoration: none;
-    color: #f72210;
+  text-decoration: none;
+  color: #f72210;
 }
 
 .upp {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .cap {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 /* background */
 
 .cult-bkg {
-    background-color: #f4f5f7;;
+  background-color: #f4f5f7;
 }
 
 .fourty-px {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-/* 66 img */ 
+/* 66 img */
 
 .ss-img {
-    display: block;
-    position: relative;
-    padding-bottom: 66.7506%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 66.7506%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 
 .tt-img {
-    display: block;
-    position: relative;
-    padding-bottom: 22.2502%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 22.2502%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 
 /* nav bar */
 
 .wrapper {
-    position: relative;
-    max-width: 1310px;
-    margin: 0 auto;
+  position: relative;
+  max-width: 1310px;
+  margin: 0 auto;
 }
 
 .nav-row {
-    padding: 20px 10px 15px;
-    height: 95px;
+  padding: 20px 10px 15px;
+  height: 95px;
 }
 
 .wrapper1 {
-    background-color: #f72210;
-    position: sticky;
-    top: -10px;
-    z-index: 3;
+  background-color: #f72210;
+  position: sticky;
+  top: -10px;
+  z-index: 3;
 }
 
 .date h6 {
-    color: white;
-    font-size: 16px;
+  color: white;
+  font-size: 16px;
 }
 
-.date, .header-links {
-    display: flex;
-    align-items: flex-end;
+.date,
+.header-links {
+  display: flex;
+  align-items: flex-end;
 }
 
 .header-links {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .sign-in {
-    font: bold 14px/14px "Roboto Condensed",sans-serif;
-    font-size: 18px;
-    color: white;
-    padding: 6px 12px;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  color: white;
+  padding: 6px 12px;
 }
 
 .sign-in:hover {
-    color: white;
+  color: white;
 }
 
 .subscribe {
-    display: inline-block;
-    position: relative;
-    background-color: white;
-    color: #f72210;
-    font: bold 14px/14px "Roboto Condensed",sans-serif;
-    line-height: 14px;
-    font-size: 18px;
-    outline: 0;
-    text-decoration: none;
-    padding: 6px 10px 6px 12px;
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  color: #f72210;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  line-height: 14px;
+  font-size: 18px;
+  outline: 0;
+  text-decoration: none;
+  padding: 6px 10px 6px 12px;
 }
 
 .subscribe:hover {
-    color: #f72210;
+  color: #f72210;
 }
 
 .subscribe svg {
-    display: inline-block;
-    fill: #f72210;
-    height: 14px;
-    width: 8px;
-    margin-left: 10px;
+  display: inline-block;
+  fill: #f72210;
+  height: 14px;
+  width: 8px;
+  margin-left: 10px;
 }
 
 .subscribe-back {
-    display: inline-block;
-    position: relative;
-    background-color: #f72210;
-    color: white;
-    font: bold 14px/14px "Roboto Condensed",sans-serif;
-    line-height: 14px;
-    font-size: 18px;
-    outline: 0;
-    text-decoration: none;
-    padding: 10px 10px 10px 12px;
+  display: inline-block;
+  position: relative;
+  background-color: #f72210;
+  color: white;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  line-height: 14px;
+  font-size: 18px;
+  outline: 0;
+  text-decoration: none;
+  padding: 10px 10px 10px 12px;
 }
 
 .subscribe-back:hover {
-    color: white;
+  color: white;
 }
 
 .subscribe-back svg {
-    display: inline-block;
-    fill: white;
-    height: 14px;
-    width: 8px;
-    margin-left: 10px;
+  display: inline-block;
+  fill: white;
+  height: 14px;
+  width: 8px;
+  margin-left: 10px;
 }
 
-.nav-logo svg{
-    display: block;
-    fill: white;
-    width: 396px;
-    height: 60px;
-    margin: 10px auto 0;
+.nav-logo svg {
+  display: block;
+  fill: white;
+  width: 396px;
+  height: 60px;
+  margin: 10px auto 0;
 }
 
 .nav-logo {
-    position: absolute;
-    transform: translate(-50%,0);
-    top: 0;
-    left: 50%;
-    padding: 10px 0;
+  position: absolute;
+  transform: translate(-50%, 0);
+  top: 0;
+  left: 50%;
+  padding: 10px 0;
 }
 
 nav {
-    max-width: 1310px;
-    background-color: white;
-    padding: 15px 0;
+  max-width: 1310px;
+  background-color: white;
+  padding: 15px 0;
 }
 
 .nav-links {
-    margin-bottom: 0;
-    width: 100%;
-    justify-content: space-around;
+  margin-bottom: 0;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .nav-links li {
-    border-right: solid 1px #d9d9d9;
-    padding: 0 auto;
-    flex-grow: 1;
+  border-right: solid 1px #d9d9d9;
+  padding: 0 auto;
+  flex-grow: 1;
 }
 
 .nav-links .li-border {
-    border-right: 0px;
+  border-right: 0;
+}
+
+.opinions li {
+  border-bottom: solid 1px #ddd;
+  margin: 0 15px;
+  padding-top: 10px;
+}
+
+.section-picks li {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-row1 ul li {
+  margin-left: 10px;
+}
+
+.footer-links ul li {
+  border-right: 1px solid #d9d9d9;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-bottom: 6px;
+  margin-top: 6px;
 }
 
 .nav-links li:last-of-type {
-    display: flex;
-    height: 24px;
-    border-right: 0px;
-    justify-content: center;
-    padding: 0 !important;
+  display: flex;
+  height: 24px;
+  border-right: 0;
+  justify-content: center;
+  padding: 0 !important;
 }
 
 .nav-links input {
-    border: none;
-    width: 80px;
-    height: 54px;
-    margin: -15px 0;
-    font-size: 16px;
-    background-image: url(https://g.newsweek.com/www/images/icon-search-glass.svg);
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-position: 60px 17px;
+  border: none;
+  width: 80px;
+  height: 54px;
+  margin: -15px 0;
+  font-size: 16px;
+  background-image: url(https://g.newsweek.com/www/images/icon-search-glass.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 60px 17px;
 }
 
 .nav-links input:focus {
-    flex-grow: 10;
-    background-image: none;
+  flex-grow: 10;
+  background-image: none;
 }
 
-.nav-link{
-    display: block;
-    padding: 0 0 !important;
-    text-align: center;
-    font-size: 21px;
-    font-weight: bold;
-    line-height: 24px;
-    color: black;
+.nav-link {
+  display: block;
+  padding: 0 0 !important;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 24px;
+  color: black;
+}
+
+.more-stories-img a {
+  display: block;
+  padding-bottom: 66.7506%;
+  width: 100%;
+  margin-top: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.dr-amazon a {
+  position: relative;
+  width: 100%;
+}
+
+.slideshow-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.opinions div a {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+.latest-news div a {
+  display: block;
+  padding-bottom: 66.7506%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.footer-links ul a {
+  color: #666;
+}
+
+.magazine-article div span a {
+  color: red;
+  text-decoration: none;
+}
+
+.section-picks article h4 a {
+  font-size: 22px;
 }
 
 .nav-links a:hover {
-    color: #f72210;
+  color: #f72210;
 }
 
 /* Main section */
 
 .main-wrapper {
-    padding: 20px 30px 0;
-    padding-right: 30px;
-    padding-left: 30px;
-    border-top: solid 1px #d9d9d9;
-    background-color: white;
+  padding: 20px 30px 0;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-top: solid 1px #d9d9d9;
+  background-color: white;
 }
 
 /* main article styling */
 
 .ma1 {
-    background-image: url(https://d.newsweek.com/en/full/1553356/border-wall.jpg?w=397&h=265&q=90&f=99c648bbceb487fcd5428f5f7c9a2c50);
+  background-image: url(https://d.newsweek.com/en/full/1553356/border-wall.jpg?w=397&h=265&q=90&f=99c648bbceb487fcd5428f5f7c9a2c50);
 }
 
 .ma2 {
-    background-image: url(https://d.newsweek.com/en/full/1553679/bashar-al-assad-syria-us-oil-smuggle-steal.jpg?w=397&h=265&q=90&f=e87d2d44580a74705650e35db439ec17);
+  background-image: url(https://d.newsweek.com/en/full/1553679/bashar-al-assad-syria-us-oil-smuggle-steal.jpg?w=397&h=265&q=90&f=e87d2d44580a74705650e35db439ec17);
 }
 
 .ma3 {
-    background-image: url(https://d.newsweek.com/en/full/1553541/indiana-university.jpg?w=397&h=265&q=90&f=0408b91bd2e5e16d48be033792043281);
+  background-image: url(https://d.newsweek.com/en/full/1553541/indiana-university.jpg?w=397&h=265&q=90&f=0408b91bd2e5e16d48be033792043281);
 }
 
 .ma4 {
-    background-image: url(https://d.newsweek.com/en/full/1543729/americas-best-stem-high-schools-2020.jpg?w=397&h=265&q=90&f=9f2c1f657ec2d1db899da25b4bcec062);
+  background-image: url(https://d.newsweek.com/en/full/1543729/americas-best-stem-high-schools-2020.jpg?w=397&h=265&q=90&f=9f2c1f657ec2d1db899da25b4bcec062);
 }
 
 .ma5 {
-    background-image: url(https://d.newsweek.com/en/full/1553686/trump-bolton.webp?w=591&h=364&f=c1f70f4926ce85e1e3188508f42459c9);
+  background-image: url(https://d.newsweek.com/en/full/1553686/trump-bolton.webp?w=591&h=364&f=c1f70f4926ce85e1e3188508f42459c9);
 }
 
 .ma6 {
-    background-image: url(https://d.newsweek.com/en/full/1402224/gettyimages-624664028.webp?w=397&h=265&f=820c17e307835d16aba24431257b356d);
+  background-image: url(https://d.newsweek.com/en/full/1402224/gettyimages-624664028.webp?w=397&h=265&f=820c17e307835d16aba24431257b356d);
 }
 
 .ma7 {
-    background-image: url(https://d.newsweek.com/en/full/1553492/jaime-harrison-lindsey-graham-sc.webp?w=397&h=265&f=0d51d6665666314d87fae72fb83a5d6d);
+  background-image: url(https://d.newsweek.com/en/full/1553492/jaime-harrison-lindsey-graham-sc.webp?w=397&h=265&f=0d51d6665666314d87fae72fb83a5d6d);
 }
 
 .ma8 {
-    background-image: url(https://d.newsweek.com/en/full/1553250/dounreay.webp?w=397&h=265&f=0f721cdd7b7f0157643ee2ca4b5f23d7);
+  background-image: url(https://d.newsweek.com/en/full/1553250/dounreay.webp?w=397&h=265&f=0f721cdd7b7f0157643ee2ca4b5f23d7);
 }
 
 .ma9 {
-    background-image: url(https://d.newsweek.com/en/full/1553503/new-york-city-taxis.webp?w=397&h=265&f=603c6cf1206d8dffe4e303b55c4e4e92);
+  background-image: url(https://d.newsweek.com/en/full/1553503/new-york-city-taxis.webp?w=397&h=265&f=603c6cf1206d8dffe4e303b55c4e4e92);
 }
 
 .ma10 {
-    background-image: url(https://d.newsweek.com/en/full/1553478/same-sex-wedding.webp?w=397&h=265&f=7fdf1cac6d3761ffacd3fae29a0fff62);
+  background-image: url(https://d.newsweek.com/en/full/1553478/same-sex-wedding.webp?w=397&h=265&f=7fdf1cac6d3761ffacd3fae29a0fff62);
 }
 
 .ma11 {
-    background-image: url(https://d.newsweek.com/en/full/1553475/joe-burrow-lsu.webp?w=397&h=265&f=62ae5705d48acd508d5961985c8858ef);
+  background-image: url(https://d.newsweek.com/en/full/1553475/joe-burrow-lsu.webp?w=397&h=265&f=62ae5705d48acd508d5961985c8858ef);
 }
 
 .ma12 {
-    background-image: url(https://d.newsweek.com/en/full/1350976/pokemon-sword-shield-sobble-trailer.webp?w=397&h=265&f=d48b0711ebe4c69b005a9b52419b3a9c);
+  background-image: url(https://d.newsweek.com/en/full/1350976/pokemon-sword-shield-sobble-trailer.webp?w=397&h=265&f=d48b0711ebe4c69b005a9b52419b3a9c);
 }
 
 .ma13 {
-    background-image: url(https://d.newsweek.com/en/full/1553462/louisiana-alligator.webp?w=397&h=265&l=0&t=0&f=6940580cb9c6fbd4284d90e130c23375);
+  background-image: url(https://d.newsweek.com/en/full/1553462/louisiana-alligator.webp?w=397&h=265&l=0&t=0&f=6940580cb9c6fbd4284d90e130c23375);
 }
 
-
-
 .main-article a:first-of-type {
-    position: relative;
-    display: block;
-    width: 100%;
-    padding-bottom: 66%;
-    margin-bottom: 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-bottom: 66%;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.magazine-article-last span {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+  line-height: 26px;
+}
+
+.slideshow-img span {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
 }
 
 .main-article a span {
-    position: absolute;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: rgba(255,255,255,.9);
-    color: #f72210;
-    bottom: 0;
-    left: 0;
-    padding: 8px 15px 9px;
+  position: absolute;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f72210;
+  bottom: 0;
+  left: 0;
+  padding: 8px 15px 9px;
+}
+
+.magazine-article-text h3 {
+  font-size: 20px;
+}
+
+.subscribe-text h3 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  color: black;
 }
 
 .main-article a h3 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 23px;
-    font-weight: bold;
-    color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  color: black;
 }
 
 .main-article a:last-of-type {
-    text-decoration-color: #f72210;
+  text-decoration-color: #f72210;
 }
 
 /* Culture and travel */
 
 .culture-travel-wrapper {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .culture1 {
-    background-image: url(https://d.newsweek.com/en/full/1552293/cul-map-underwater-banner.webp?w=397&h=265&f=556690dba11324f197a04f43aadde8fa);
+  background-image: url(https://d.newsweek.com/en/full/1552293/cul-map-underwater-banner.webp?w=397&h=265&f=556690dba11324f197a04f43aadde8fa);
 }
 
 .culture2 {
-    background-image: url(https://d.newsweek.com/en/full/1553769/hero-pic-italian-hill-towns.webp?w=397&h=265&f=ecb5ef8afc670365419655849318d2d4);
+  background-image: url(https://d.newsweek.com/en/full/1553769/hero-pic-italian-hill-towns.webp?w=397&h=265&f=ecb5ef8afc670365419655849318d2d4);
 }
 
 .culture3 {
-    background-image: url(https://d.newsweek.com/en/full/1552761/yasur-vanuatu.webp?w=397&h=265&f=6261b1c5b032a708910f3916198ab0a9);
+  background-image: url(https://d.newsweek.com/en/full/1552761/yasur-vanuatu.webp?w=397&h=265&f=6261b1c5b032a708910f3916198ab0a9);
 }
 
 .culture4 {
-    background-image: url(https://d.newsweek.com/en/full/1548530/cao-lau.webp?w=397&h=265&f=0156e3366e2da77b5edad9dbbed56279);
+  background-image: url(https://d.newsweek.com/en/full/1548530/cao-lau.webp?w=397&h=265&f=0156e3366e2da77b5edad9dbbed56279);
 }
 
 .culture-travel article {
-    overflow: hidden;
+  overflow: hidden;
+}
+
+.opinions div {
+  padding-right: 30px;
+}
+
+.sign-up div {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  margin-bottom: 25px;
+}
+
+.magazine-article div {
+  color: #f72210;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .culture-travel article div {
-    padding: 15px 10px 20px;
+  padding: 15px 10px 20px;
 }
 
 .culture-background {
-    display: block;
-    width: 100%;
-    padding-bottom: 66.7506%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 2;
-    overflow: hidden;
+  display: block;
+  width: 100%;
+  padding-bottom: 66.7506%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.more-stories article h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.latest-news article h3 {
+  font-size: 17px;
+  padding-right: 2rem;
 }
 
 .culture-travel article a h3 {
-    font-size: 20px;
-    color: #272727;
-    margin-bottom: 10px;
+  font-size: 20px;
+  color: #272727;
+  margin-bottom: 10px;
+}
+
+.subscribe-text p {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.opinions div p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
 }
 
 .cultural-travel article div p {
-    display: block;
-    font-family: helvetica, arial, sans-serif;
-    margin-bottom: 10px;
-    color: rgba(39,39,39,.5);
+  display: block;
+  font-family: helvetica, arial, sans-serif;
+  margin-bottom: 10px;
+  color: rgba(39, 39, 39, 0.5);
 }
 
 .culture-travel article div a:last-of-type {
-    display: inline-block;
-    background-color: #c2d4d7;
-    font: 300 13px/20px Helvetica, Arial, Sans-serif;
-    line-height: 20px;
-    padding: 0 6px;
-    margin-right: 6px;
-    margin-bottom: 6px;
-    text-decoration: none;
-    color: #272727;
+  display: inline-block;
+  background-color: #c2d4d7;
+  font: 300 13px/20px Helvetica, Arial, Sans-serif;
+  line-height: 20px;
+  padding: 0 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  color: #272727;
+}
+
+.footer-links ul li a:hover {
+  color: black;
 }
 
 .culture-travel article div a:last-of-type:hover {
-    color: #c2d4d7;
-    background-color: #272727;
+  color: #c2d4d7;
+  background-color: #272727;
 }
 
 /* more stories */
 
 .more-stories .row {
-    border-top: 1px solid #ddd;
+  border-top: 1px solid #ddd;
 }
 
 .more1 {
-    background-image: url(https://d.newsweek.com/en/full/1553640/boris-johnson-uk-russia-report-interference-election.webp?w=135&h=90&f=99f2c100f15dd5d0ca7aeb36b40df9aa);
+  background-image: url(https://d.newsweek.com/en/full/1553640/boris-johnson-uk-russia-report-interference-election.webp?w=135&h=90&f=99f2c100f15dd5d0ca7aeb36b40df9aa);
 }
 
 .more2 {
-    background-image: url(https://d.newsweek.com/en/full/1553566/cory-booker.webp?w=135&h=90&f=b6cd2cbc7cf9ca66d1fc2e3a433dbc39);
+  background-image: url(https://d.newsweek.com/en/full/1553566/cory-booker.webp?w=135&h=90&f=b6cd2cbc7cf9ca66d1fc2e3a433dbc39);
 }
 
 .more3 {
-    background-image: url(https://d.newsweek.com/en/full/1553583/donald-trump-vladimir-putin-russia-us-relationship.webp?w=135&h=90&f=3819d5bdb0dceb36b73f36c4dd19c90f);
+  background-image: url(https://d.newsweek.com/en/full/1553583/donald-trump-vladimir-putin-russia-us-relationship.webp?w=135&h=90&f=3819d5bdb0dceb36b73f36c4dd19c90f);
 }
 
 .more4 {
-    background-image: url(https://d.newsweek.com/en/full/1553636/barack-obama.webp?w=135&h=90&f=fd2ae8ace9af16a5042817ae605768ab);
+  background-image: url(https://d.newsweek.com/en/full/1553636/barack-obama.webp?w=135&h=90&f=fd2ae8ace9af16a5042817ae605768ab);
 }
 
 .more5 {
-    background-image: url(https://d.newsweek.com/en/full/1553556/stephen-biegun-north-korea-south-korea-denuclearization.webp?w=135&h=90&f=18d2e1b3331712c14a6c3e3b144e6698);
+  background-image: url(https://d.newsweek.com/en/full/1553556/stephen-biegun-north-korea-south-korea-denuclearization.webp?w=135&h=90&f=18d2e1b3331712c14a6c3e3b144e6698);
 }
 
 .more6 {
-    background-image: url(https://d.newsweek.com/en/full/1553674/harvey-weinstein-page-six-forgotten-man-criticism.webp?w=135&h=90&f=43a1cdbdc16a481bc924770a59d77572);
+  background-image: url(https://d.newsweek.com/en/full/1553674/harvey-weinstein-page-six-forgotten-man-criticism.webp?w=135&h=90&f=43a1cdbdc16a481bc924770a59d77572);
 }
 
 .more7 {
-    background-image: url(https://d.newsweek.com/en/full/1553512/rudy-giuliani-twitter-ukraine-trip.webp?w=135&h=90&f=d1557ebdf1f5449757a3aa905305f605);
+  background-image: url(https://d.newsweek.com/en/full/1553512/rudy-giuliani-twitter-ukraine-trip.webp?w=135&h=90&f=d1557ebdf1f5449757a3aa905305f605);
 }
 
 .more8 {
-    background-image: url(https://d.newsweek.com/en/full/1553504/james-comey-fox-news-sunday.webp?w=135&h=90&f=8e9c0691b8478cf568653ba49f35ab18);
+  background-image: url(https://d.newsweek.com/en/full/1553504/james-comey-fox-news-sunday.webp?w=135&h=90&f=8e9c0691b8478cf568653ba49f35ab18);
 }
 
 .more9 {
-    background-image: url(https://d.newsweek.com/en/full/1553507/army-navy-game-trump.webp?w=135&h=90&f=2ccaac45244b21d62a8a6d4d154ec8f0);
-    margin-bottom: 1rem;
+  background-image: url(https://d.newsweek.com/en/full/1553507/army-navy-game-trump.webp?w=135&h=90&f=2ccaac45244b21d62a8a6d4d154ec8f0);
+  margin-bottom: 1rem;
 }
 
 .more10 {
-    background-image: url(https://d.newsweek.com/en/full/1553499/fox-news-poll-trump-impeach.webp?w=135&h=90&f=34e61113ab11b9a3d47f7103422b6d9c);
-}
-
-.more-stories-img a {
-    display: block;
-    padding-bottom: 66.7506%;
-    width: 100%;
-    margin-top: 1rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+  background-image: url(https://d.newsweek.com/en/full/1553499/fox-news-poll-trump-impeach.webp?w=135&h=90&f=34e61113ab11b9a3d47f7103422b6d9c);
 }
 
 .more-stories article {
-    margin-top: 1rem;
-}
-
-.more-stories article h3 {
-    font-size: 17px;
-    font-weight: bold;
+  margin-top: 1rem;
 }
 
 /* continue main section */
@@ -528,1014 +670,867 @@ nav {
 /* Opinion column */
 
 .pic1 {
-    background-image: url(https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580);
-}
-.pic2 {
-    background-image: url(https://d.newsweek.com/en/full/1553083/zoe-lofgren.webp?w=63&h=63&f=d2bcfda2afff26c8a7d4d5e87a176917);
-}
-.pic3 {
-    background-image: url(https://d.newsweek.com/en/full/1528785/roff-new.webp?w=63&h=63&f=4dc2ef8dad149bbca161552d8b875591);
-}
-.pic4 {
-    background-image: url(https://d.newsweek.com/en/full/1506965/charlie-kirk.webp?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410);
-}
-.pic5 {
-    background-image: url(https://d.newsweek.com/en/full/1553388/pippa-norris.webp?w=63&h=63&f=6b9f6615f4e3e92f72ef2f1e6dd21541);
-}
-.pic6 {
-    background-image: url(https://d.newsweek.com/en/full/1553229/jennifer-weiss-wolf-emily-bell-mccormick.webp?w=63&h=63&f=0f665db51f3c4f281c9274334e795335);
+  background-image: url(https://d.newsweek.com/en/full/97976/robert-reich.webp?w=63&h=63&f=297351a03eaa549128026042394c9580);
 }
 
-.opinions li {
-    border-bottom: solid 1px #ddd;
-    margin: 0 15px;
-    padding-top: 10px;
+.pic2 {
+  background-image: url(https://d.newsweek.com/en/full/1553083/zoe-lofgren.webp?w=63&h=63&f=d2bcfda2afff26c8a7d4d5e87a176917);
+}
+
+.pic3 {
+  background-image: url(https://d.newsweek.com/en/full/1528785/roff-new.webp?w=63&h=63&f=4dc2ef8dad149bbca161552d8b875591);
+}
+
+.pic4 {
+  background-image: url(https://d.newsweek.com/en/full/1506965/charlie-kirk.webp?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410);
+}
+
+.pic5 {
+  background-image: url(https://d.newsweek.com/en/full/1553388/pippa-norris.webp?w=63&h=63&f=6b9f6615f4e3e92f72ef2f1e6dd21541);
+}
+
+.pic6 {
+  background-image: url(https://d.newsweek.com/en/full/1553229/jennifer-weiss-wolf-emily-bell-mccormick.webp?w=63&h=63&f=0f665db51f3c4f281c9274334e795335);
 }
 
 .opinions li:last-of-type {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .opinions-pic {
-    width: 63px;
-    height: 63px;
-    background-repeat: no-repeat;
-    padding-right: 0px;
-}
-
-.opinions div {
-    padding-right: 30px;
-}
-
-.opinions div a {
-    font: bold 17px/21px "Roboto Condensed",sans-serif;
-    color: black;
-}
-
-.opinions div p {
-    font-family: "Roboto Condensed",sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-    color: #555;
-    text-transform: uppercase;
-    margin-top: 4px;
+  width: 63px;
+  height: 63px;
+  background-repeat: no-repeat;
+  padding-right: 0;
 }
 
 /* latest news */
 
 .latest1 {
-    background-image: url(https://d.newsweek.com/en/full/1553806/lgbtq.webp?w=397&h=265&f=2d88d29b78beb82b53537b071ae3d9ce);
+  background-image: url(https://d.newsweek.com/en/full/1553806/lgbtq.webp?w=397&h=265&f=2d88d29b78beb82b53537b071ae3d9ce);
 }
 
 .latest2 {
-    background-image: url(https://d.newsweek.com/en/full/1553794/schumer-defends-senate-trial-witnesses.webp?w=397&h=265&f=373a43096fac8ef4814e40345c5a3ec8);
+  background-image: url(https://d.newsweek.com/en/full/1553794/schumer-defends-senate-trial-witnesses.webp?w=397&h=265&f=373a43096fac8ef4814e40345c5a3ec8);
 }
 
 .latest3 {
-    background-image: url(https://d.newsweek.com/en/full/1553797/donald-trump.webp?w=397&h=265&f=068c603177ab05fc213b477c6fc73e3e);
+  background-image: url(https://d.newsweek.com/en/full/1553797/donald-trump.webp?w=397&h=265&f=068c603177ab05fc213b477c6fc73e3e);
 }
 
 .latest4 {
-    background-image: url(https://d.newsweek.com/en/full/1553802/henry-asomani-mugshot.webp?w=397&h=265&f=e88c90b0db2129f28b2410680b913532);
+  background-image: url(https://d.newsweek.com/en/full/1553802/henry-asomani-mugshot.webp?w=397&h=265&f=e88c90b0db2129f28b2410680b913532);
 }
 
 .latest5 {
-    background-image: url(https://d.newsweek.com/en/full/1553785/lawmakers-rally-stave-off-shutdown.webp?w=397&h=265&f=666e265ebf38f56aa3da6ba158806c72);
+  background-image: url(https://d.newsweek.com/en/full/1553785/lawmakers-rally-stave-off-shutdown.webp?w=397&h=265&f=666e265ebf38f56aa3da6ba158806c72);
 }
 
 .latest6 {
-    background-image: url(https://d.newsweek.com/en/full/1553789/sergey-lavrov-mike-pompeo.webp?w=397&h=265&f=c8ec57931c18d4eeb44f7ab1af26c135);
+  background-image: url(https://d.newsweek.com/en/full/1553789/sergey-lavrov-mike-pompeo.webp?w=397&h=265&f=c8ec57931c18d4eeb44f7ab1af26c135);
 }
 
 .latest7 {
-    background-image: url(https://d.newsweek.com/en/full/1553782/police-car-burlington.webp?w=397&h=265&l=51&t=62&f=7d085f4c69989f30f8cf24640f1692ce);
+  background-image: url(https://d.newsweek.com/en/full/1553782/police-car-burlington.webp?w=397&h=265&l=51&t=62&f=7d085f4c69989f30f8cf24640f1692ce);
 }
 
 .latest-news {
-    padding: 1rem 0;
-    border-bottom: solid 1px #ddd;
+  padding: 1rem 0;
+  border-bottom: solid 1px #ddd;
 }
 
 .last-latest-news {
-    border-bottom: none;
-}
-
-.latest-news div a {
-    display: block;
-    padding-bottom: 66.7506%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.latest-news article h3 {
-    font-size: 17px;
-    padding-right: 2rem;
+  border-bottom: none;
 }
 
 /* sign up */
 
 .sign-up-wrapper {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .sign-up {
-    margin: 0 20.5px 30px;
-    padding: 20px;
-    max-width: 300px;
-    background-color: #F4F5F6;
+  margin: 0 20.5px 30px;
+  padding: 20px;
+  max-width: 300px;
+  background-color: #f4f5f6;
 }
 
-.sign-up div {
-    display: flex;
-    align-items: center;
-    font-size: 19px;
-    margin-bottom: 25px;
+.magazine-title h4 {
+  display: block;
+  width: 29px;
+  height: 28px;
+  color: #333;
+  background-color: #f72210;
+  background-image: url(https://g.newsweek.com/www/images/logo-n1.svg);
+  background-size: center/contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.slideshow-title h4 {
+  display: block;
+  position: relative;
+  width: 29px;
+  height: 28px;
+  color: #333;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+  margin-bottom: 0;
 }
 
 .sign-up div h4 {
-    display: block;
-    width: 29px;
-    height: 28px;
-    color: #333333;
-    background-color: #f72210;
-    background-image: url(https://g.newsweek.com/www/images/logo-n1.svg);
-    background-size: center/contain;
-    background-repeat: no-repeat;
-    margin-right: 10px;
-    margin-bottom: 0;
+  display: block;
+  width: 29px;
+  height: 28px;
+  color: #333;
+  background-color: #f72210;
+  background-image: url(https://g.newsweek.com/www/images/logo-n1.svg);
+  background-size: center/contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  margin-bottom: 0;
 }
 
 .sign-up-but {
-    display: inline-block;
-    font-size: 18px;
-    text-transform: capitalize;
-    background-color: #666666;
-    color: white;
-    padding: 10px 10px 10px 12px;
-    margin-bottom: 10px;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: #666;
+  color: white;
+  padding: 10px 10px 10px 12px;
+  margin-bottom: 10px;
 }
 
 .sign-up-but:hover {
-    background-color: #999999;
-    color: white;
+  background-color: #999;
+  color: white;
 }
 
 .sign-up-but::after {
-    content: "";
-    display: inline-block;
-    width: 8px;
-    height: 14px;
-    margin-left: 10px;
-    background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
 }
 
 .update-preferences {
-    display: block;
-    font-size: 15px;
-    color: #333333;
+  display: block;
+  font-size: 15px;
+  color: #333;
 }
 
 /* Page bottom */
 
 .page-bottom {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* magazine */
 
 .magazine-row-2 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /* Dr amazon */
 
 .dr-amazon {
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-end;
-}
-
-.dr-amazon a {
-    position: relative;
-    width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
 }
 
 .dr-amazon a img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .dr-amazon a span {
-    position: absolute;
-    width: max-content;
-    bottom: 0;
-    left: 0;
-    padding: 0 10px;
-    background-color: rgba(255,255,255,.9);
-    color: #f72210;
-    line-height: 33px;
-    font-size: 16px;
+  position: absolute;
+  width: max-content;
+  bottom: 0;
+  left: 0;
+  padding: 0 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f72210;
+  line-height: 33px;
+  font-size: 16px;
 }
 
 .see-all {
-    display: inline-block;
-    background-color: #f4f5f6;
-    text-align: center;
-    color: black;
-    font-size: 18px;
-    line-height: 18px;
-    padding: 10px 10px 10px 12px;
+  display: inline-block;
+  background-color: #f4f5f6;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 10px 10px 10px 12px;
 }
 
 .see-all::after {
-    content: "";
-    display: inline-block;
-    width: 8px;
-    height: 14px;
-    margin-left: 10px;
-    background: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg) center/contain no-repeat;
-    color: black;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg) center/contain no-repeat;
+  color: black;
 }
 
 .see-all:hover {
-    color: black;
-    background-color: #666;
+  color: black;
+  background-color: #666;
 }
 
 /* magazine title */
 
 .magazine-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 19px;
-    padding-bottom: 8px;
-    margin-bottom: 15px;
-    border-bottom: solid 1px #ddd;
-}
-
-.magazine-title h4 {
-    display: block;
-    width: 29px;
-    height: 28px;
-    color: #333333;
-    background-color: #f72210;
-    background-image: url(https://g.newsweek.com/www/images/logo-n1.svg);
-    background-size: center/contain;
-    background-repeat: no-repeat;
-    margin-right: 10px;
-    margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  border-bottom: solid 1px #ddd;
 }
 
 /* magazine article */
 
 .mag1 {
-    background-image: url(https://d.newsweek.com/en/full/1550220/health-care-telemedicine-digital-medicine-tech.webp?w=466&h=311&q=90&f=942d1590e033f78a23e537e59fa9fbd0);
+  background-image: url(https://d.newsweek.com/en/full/1550220/health-care-telemedicine-digital-medicine-tech.webp?w=466&h=311&q=90&f=942d1590e033f78a23e537e59fa9fbd0);
 }
 
 .mag2 {
-    background-image: url(https://d.newsweek.com/en/full/1552796/fe-dramazon-sb-drgoogle-banner.webp?w=466&h=311&l=56&t=45&q=90&f=41c24c9e96e46d3fd12b75b23d08710c);
+  background-image: url(https://d.newsweek.com/en/full/1552796/fe-dramazon-sb-drgoogle-banner.webp?w=466&h=311&l=56&t=45&q=90&f=41c24c9e96e46d3fd12b75b23d08710c);
 }
 
 .mag3 {
-    background-image: url(https://d.newsweek.com/en/full/1552304/fe-jimmywales-01-450700954-banner.webp?w=466&h=311&l=54&t=47&q=90&f=2d292f2489a2a529a519ae0f06754fda);
+  background-image: url(https://d.newsweek.com/en/full/1552304/fe-jimmywales-01-450700954-banner.webp?w=466&h=311&l=54&t=47&q=90&f=2d292f2489a2a529a519ae0f06754fda);
 }
 
 .mag4 {
-    background-image: url(https://d.newsweek.com/en/full/1552314/per-salary-banner.webp?w=466&h=311&l=50&t=43&q=90&f=2186facaa395f2caed7d3d0fe42fcf9d);
+  background-image: url(https://d.newsweek.com/en/full/1552314/per-salary-banner.webp?w=466&h=311&l=50&t=43&q=90&f=2186facaa395f2caed7d3d0fe42fcf9d);
 }
 
 .mag5 {
-    background-image: url(https://d.newsweek.com/en/full/1552298/cul-kaceymusgraves-01-1183498174-banner.webp?w=466&h=311&l=49&t=25&q=90&f=cf9171a0c55e814d0fd50741ff506236);
+  background-image: url(https://d.newsweek.com/en/full/1552298/cul-kaceymusgraves-01-1183498174-banner.webp?w=466&h=311&l=49&t=25&q=90&f=cf9171a0c55e814d0fd50741ff506236);
 }
 
 .mag6 {
-    background-image: url(https://d.newsweek.com/en/full/1552303/cul-ps-harper-banner.webp?w=466&h=311&l=44&t=40&q=90&f=fa181d4793b943b2c54641922a637558);
+  background-image: url(https://d.newsweek.com/en/full/1552303/cul-ps-harper-banner.webp?w=466&h=311&l=44&t=40&q=90&f=fa181d4793b943b2c54641922a637558);
 }
 
 .mag7 {
-    background-image: url(https://d.newsweek.com/en/full/1552325/helping-hand.webp?w=480&h=320&l=46&t=56&q=90&f=9ed5920369774841b7e06e46b8dca8fa);
+  background-image: url(https://d.newsweek.com/en/full/1552325/helping-hand.webp?w=480&h=320&l=46&t=56&q=90&f=9ed5920369774841b7e06e46b8dca8fa);
 }
 
 .magazine-article-img {
-    display: block;
-    padding-bottom: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-}
-
-.magazine-article div {
-    color: #f72210;
-    font-size: 16px;
-    line-height: 26px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  display: block;
+  padding-bottom: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 .magazine-article div span {
-    display: inline-block;
-    line-height: 26px;
+  display: inline-block;
+  line-height: 26px;
 }
 
 .magazine-article div span:first-of-type {
-    padding: 0 7px;
-    background-color: #f72210;
-    color: white;
-    margin-right: 7px;
-    line-height: 26px;
-}
-
-.magazine-article div span a {
-    color: red;
-    text-decoration: none;
-}
-
-.magazine-article-text h3 {
-    font-size: 20px;
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+  line-height: 26px;
 }
 
 /* Last magazine article */
 
 .magazine-article-img-last {
-    display: block;
-    position: relative;
-    padding-bottom: 110%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    margin-bottom: 10px;
-}
-
-.magazine-article-last span {
-    position: absolute;
-    bottom: 0;
-    display: inline-block;
-    padding: 0 7px;
-    background-color: #f72210;
-    color: white;
-    margin-right: 7px;
-    line-height: 26px;
+  display: block;
+  position: relative;
+  padding-bottom: 110%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 
 /* slideshow title */
 
 .slideshow-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 19px;
-    padding-bottom: 12px;
-    margin-bottom: 15px;
-    border-bottom: solid 1px #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+  border-bottom: solid 1px #ddd;
 }
 
-.slideshow-title a {
-    color: #333333;
-    text-decoration: none;
-}
-
-.slideshow-title h4 {
-    display: block;
-    position: relative;
-    width: 29px;
-    height: 28px;
-    color: #333333;
-    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-    margin-right: 10px;
-    margin-bottom: 0;
-}
-
-.slideshow-title h4:after {
-    border-bottom: 3px solid red;
-    border-right: 3px solid red;
-    display: block;
-    content: "";
-    width: 26px;
-    height: 25px;
-    position: absolute;
-    bottom: -4px;
-    right: -4px;
+.slideshow-title h4::after {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
 }
 
 /* featured slideshows */
 
 .slideshow-article {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .slide1 {
-    background-image: url(https://d.newsweek.com/en/full/1547486/lipschutz-living-room-hotel-chelsea.webp?w=397&h=265&f=fb4270bf5fbc2591cc43d24d0377621d);
+  background-image: url(https://d.newsweek.com/en/full/1547486/lipschutz-living-room-hotel-chelsea.webp?w=397&h=265&f=fb4270bf5fbc2591cc43d24d0377621d);
 }
 
 .slide2 {
-    background-image: url(https://d.newsweek.com/en/full/1543106/2018-cup-collection.webp?w=397&h=265&f=e00260b486695409ac860cb50949464c);
+  background-image: url(https://d.newsweek.com/en/full/1543106/2018-cup-collection.webp?w=397&h=265&f=e00260b486695409ac860cb50949464c);
 }
 
 .slide3 {
-    background-image: url(https://d.newsweek.com/en/full/1542741/holiday-cups-starbucks.webp?w=397&h=265&f=cc7b0a58452583ca846051991fe522ce);
+  background-image: url(https://d.newsweek.com/en/full/1542741/holiday-cups-starbucks.webp?w=397&h=265&f=cc7b0a58452583ca846051991fe522ce);
 }
 
 .slide4 {
-    background-image: url(https://d.newsweek.com/en/full/1539646/first-wives-club-pumpkin.webp?w=397&h=265&f=4a9ecc91f6b122866651645aed974cf6);
+  background-image: url(https://d.newsweek.com/en/full/1539646/first-wives-club-pumpkin.webp?w=397&h=265&f=4a9ecc91f6b122866651645aed974cf6);
 }
 
 .slide5 {
-    background-image: url(https://d.newsweek.com/en/full/1534277/nycc-2019-best-cosplay-augustus-st-cloud.webp?w=397&h=265&l=22&t=27&f=db0895c475d903e09b054be0c3cfb8c5);
+  background-image: url(https://d.newsweek.com/en/full/1534277/nycc-2019-best-cosplay-augustus-st-cloud.webp?w=397&h=265&l=22&t=27&f=db0895c475d903e09b054be0c3cfb8c5);
 }
 
 .slide6 {
-    background-image: url(https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.webp?w=397&h=265&f=f340356025a2be1523d3102736a02f42);
+  background-image: url(https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.webp?w=397&h=265&f=f340356025a2be1523d3102736a02f42);
 }
 
 .slideshow-img {
-    display: block;
-    position: relative;
-    padding-bottom: 66.7506%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.slideshow-img span {
-    width: 70px;
-    height: 52px;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 58px;
-    text-indent: 5px;
-    text-align: center;
-    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
-    color: #e9212e;
+  display: block;
+  position: relative;
+  padding-bottom: 66.7506%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 
 .slideshow-text {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 /* section picks */
 
 .picks-title {
-    border-top: 1px solid #d9d9d9;
-    color: #f72210;
-    padding-top: 25px;
-    font-size: 22px;
-    line-height: 22px;
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
 }
 
 /* section picks main article */
 
 .picks1 {
-    background-image: url(https://d.newsweek.com/en/full/1553720/pile-100-bills.webp?w=397&h=265&f=af617411173a09417721a95f50ed23b5);
+  background-image: url(https://d.newsweek.com/en/full/1553720/pile-100-bills.webp?w=397&h=265&f=af617411173a09417721a95f50ed23b5);
 }
 
 .picks2 {
-    background-image: url(https://d.newsweek.com/en/full/1553723/disney-riviera-resort-2019-opening.webp?w=300&h=200&f=ba8a9b2c2b1e92cc06be9ffbc5ec1658);
+  background-image: url(https://d.newsweek.com/en/full/1553723/disney-riviera-resort-2019-opening.webp?w=300&h=200&f=ba8a9b2c2b1e92cc06be9ffbc5ec1658);
 }
 
 .picks3 {
-    background-image: url(https://d.newsweek.com/en/full/1553705/remain-mexico.webp?w=135&h=90&f=60322cd367f113215a6da2dbd7489ffd);
+  background-image: url(https://d.newsweek.com/en/full/1553705/remain-mexico.webp?w=135&h=90&f=60322cd367f113215a6da2dbd7489ffd);
 }
 
 .picks4 {
-    background-image: url(https://d.newsweek.com/en/full/1553690/nj-rep-jeff-van-drew.webp?w=135&h=90&l=46&t=40&f=0233c3542b84cd17e7f71c1d2f3cdb75);
+  background-image: url(https://d.newsweek.com/en/full/1553690/nj-rep-jeff-van-drew.webp?w=135&h=90&l=46&t=40&f=0233c3542b84cd17e7f71c1d2f3cdb75);
 }
 
 .picks5 {
-    background-image: url(https://d.newsweek.com/en/full/1553689/republican-ad-kristol-times-square.webp?w=135&h=90&f=e1f5b495547f3ca9a9bfa665c63ff354);
+  background-image: url(https://d.newsweek.com/en/full/1553689/republican-ad-kristol-times-square.webp?w=135&h=90&f=e1f5b495547f3ca9a9bfa665c63ff354);
 }
 
 .picks6 {
-    background-image: url(https://d.newsweek.com/en/full/1553767/stephen-biegun-south-korea-moon-jae.webp?w=300&h=200&f=f677018e92f2adfce18d9d42b7682b42);
+  background-image: url(https://d.newsweek.com/en/full/1553767/stephen-biegun-south-korea-moon-jae.webp?w=300&h=200&f=f677018e92f2adfce18d9d42b7682b42);
 }
 
 .picks7 {
-    background-image: url(https://d.newsweek.com/en/full/1548026/trump-fox-friends-marie-yovanovitch.webp?w=300&h=200&f=f7c55faeb6a453cf4e621f4d0cb180ee);
+  background-image: url(https://d.newsweek.com/en/full/1548026/trump-fox-friends-marie-yovanovitch.webp?w=300&h=200&f=f7c55faeb6a453cf4e621f4d0cb180ee);
 }
 
 .picks8 {
-    background-image: url(https://d.newsweek.com/en/full/1553742/roman-abramovichs-super-yacht-ecstasea.webp?w=135&h=90&f=421561fb6c8c0f3162060b168527c683);
+  background-image: url(https://d.newsweek.com/en/full/1553742/roman-abramovichs-super-yacht-ecstasea.webp?w=135&h=90&f=421561fb6c8c0f3162060b168527c683);
 }
 
 .picks9 {
-    background-image: url(https://d.newsweek.com/en/full/1553708/syria-war-oil-fields-us-military.webp?w=135&h=90&f=eb81efcde86799effa22176c19fe30d5);
+  background-image: url(https://d.newsweek.com/en/full/1553708/syria-war-oil-fields-us-military.webp?w=135&h=90&f=eb81efcde86799effa22176c19fe30d5);
 }
 
 .picks10 {
-    background-image: url(https://d.newsweek.com/en/full/1553668/exploded-car.webp?w=135&h=90&f=2d5c0f09c4d54e3262bff726fb3972cd);
+  background-image: url(https://d.newsweek.com/en/full/1553668/exploded-car.webp?w=135&h=90&f=2d5c0f09c4d54e3262bff726fb3972cd);
 }
 
 .picks11 {
-    background-image: url(https://d.newsweek.com/en/full/1550350/fox-news-carol-roth-millennials.webp?w=300&h=200&f=5604a14b52fcdd78b0957c98500ab6e3);
+  background-image: url(https://d.newsweek.com/en/full/1550350/fox-news-carol-roth-millennials.webp?w=300&h=200&f=5604a14b52fcdd78b0957c98500ab6e3);
 }
 
 .picks12 {
-    background-image: url(https://d.newsweek.com/en/full/1550200/giving-tuesday-charity-donations-taxcut.webp?w=300&h=200&f=bc998dfb4d1065fbc0c2e549ac403f92);
+  background-image: url(https://d.newsweek.com/en/full/1550200/giving-tuesday-charity-donations-taxcut.webp?w=300&h=200&f=bc998dfb4d1065fbc0c2e549ac403f92);
 }
 
 .picks13 {
-    background-image: url(https://d.newsweek.com/en/full/1549935/trump-jr-bookstores-triggered-sales.webp?w=135&h=90&f=c7cf9b55dd14b8f1b512b2682d008170);
+  background-image: url(https://d.newsweek.com/en/full/1549935/trump-jr-bookstores-triggered-sales.webp?w=135&h=90&f=c7cf9b55dd14b8f1b512b2682d008170);
 }
 
 .picks14 {
-    background-image: url(https://d.newsweek.com/en/full/1549870/fox-trump-economy-black-friday.webp?w=135&h=90&f=249a6af53efa30d362ba9076e75de471);
+  background-image: url(https://d.newsweek.com/en/full/1549870/fox-trump-economy-black-friday.webp?w=135&h=90&f=249a6af53efa30d362ba9076e75de471);
 }
 
 .picks15 {
-    background-image: url(https://d.newsweek.com/en/full/1549804/amazon-workers-block-friday-protest-series.webp?w=135&h=90&f=04a4187d7f286a87d735ccf987df7efe);
+  background-image: url(https://d.newsweek.com/en/full/1549804/amazon-workers-block-friday-protest-series.webp?w=135&h=90&f=04a4187d7f286a87d735ccf987df7efe);
 }
 
 .picks16 {
-    background-image: url(https://d.newsweek.com/en/full/1553649/rob-greenfield-one-year-without-grocery-stores-restaurants.webp?w=300&h=200&f=ae9204ac5e75e41875eec283d8755ddf);
+  background-image: url(https://d.newsweek.com/en/full/1553649/rob-greenfield-one-year-without-grocery-stores-restaurants.webp?w=300&h=200&f=ae9204ac5e75e41875eec283d8755ddf);
 }
 
 .picks17 {
-    background-image: url(https://d.newsweek.com/en/full/1553671/ring.webp?w=300&h=200&f=a6fa2ba2b77ebaa010bec62203a6bca0);
+  background-image: url(https://d.newsweek.com/en/full/1553671/ring.webp?w=300&h=200&f=a6fa2ba2b77ebaa010bec62203a6bca0);
 }
 
 .picks18 {
-    background-image: url(https://d.newsweek.com/en/full/1553625/easter-island-statues.webp?w=135&h=90&f=ce49650a300d0e5527ff5d944c1a965f);
+  background-image: url(https://d.newsweek.com/en/full/1553625/easter-island-statues.webp?w=135&h=90&f=ce49650a300d0e5527ff5d944c1a965f);
 }
 
 .picks19 {
-    background-image: url(https://d.newsweek.com/en/full/1553544/spider-huntsman-wolf-spider-stock-getty.webp?w=135&h=90&f=acf9bfde0f4290236917f4120fe4037c);
+  background-image: url(https://d.newsweek.com/en/full/1553544/spider-huntsman-wolf-spider-stock-getty.webp?w=135&h=90&f=acf9bfde0f4290236917f4120fe4037c);
 }
 
 .picks20 {
-    background-image: url(https://d.newsweek.com/en/full/1553502/phillipines-earthquake.webp?w=135&h=90&f=fdf9c819badc2b9b26ec9a21c552d58b);
+  background-image: url(https://d.newsweek.com/en/full/1553502/phillipines-earthquake.webp?w=135&h=90&f=fdf9c819badc2b9b26ec9a21c552d58b);
 }
 
 .picks21 {
-    background-image: url(https://d.newsweek.com/en/full/1553744/internet-drooling-over-kumani-nanjanis-eternals-transformation.webp?w=300&h=200&f=d1e614e97a22cc1b1e5d10f723165ec8);
+  background-image: url(https://d.newsweek.com/en/full/1553744/internet-drooling-over-kumani-nanjanis-eternals-transformation.webp?w=300&h=200&f=d1e614e97a22cc1b1e5d10f723165ec8);
 }
 
 .picks22 {
-    background-image: url(https://d.newsweek.com/en/full/1553677/where-are-voice-winners-now.webp?w=300&h=200&f=efe3a0be45bfbb88e9b2ab44f7d8ea98);
+  background-image: url(https://d.newsweek.com/en/full/1553677/where-are-voice-winners-now.webp?w=300&h=200&f=efe3a0be45bfbb88e9b2ab44f7d8ea98);
 }
 
 .picks23 {
-    background-image: url(https://d.newsweek.com/en/full/1546672/mad-about-you-2019.webp?w=135&h=90&f=ffaa53c5cf563ee098cd9dd740b36ce1);
+  background-image: url(https://d.newsweek.com/en/full/1546672/mad-about-you-2019.webp?w=135&h=90&f=ffaa53c5cf563ee098cd9dd740b36ce1);
 }
 
 .picks24 {
-    background-image: url(https://d.newsweek.com/en/full/1553589/witcher-netflix-release-date.webp?w=135&h=90&l=36&t=14&f=fc102f56d2df3cc9181ba63f2eece037);
+  background-image: url(https://d.newsweek.com/en/full/1553589/witcher-netflix-release-date.webp?w=135&h=90&l=36&t=14&f=fc102f56d2df3cc9181ba63f2eece037);
 }
 
 .picks25 {
-    background-image: url(https://d.newsweek.com/en/full/1553637/rise-skywalker-reviews-embergo.webp?w=135&h=90&l=66&t=31&f=d9259b3e56ee22c1cca73a0e5abc8ea8);
+  background-image: url(https://d.newsweek.com/en/full/1553637/rise-skywalker-reviews-embergo.webp?w=135&h=90&l=66&t=31&f=d9259b3e56ee22c1cca73a0e5abc8ea8);
 }
 
 .picks26 {
-    background-image: url(https://d.newsweek.com/en/full/1553577/drew-brees-new-orleans-saints.webp?w=300&h=200&f=ce29d3e77ad6a5c17f294a3d4413427e);
+  background-image: url(https://d.newsweek.com/en/full/1553577/drew-brees-new-orleans-saints.webp?w=300&h=200&f=ce29d3e77ad6a5c17f294a3d4413427e);
 }
 
 .picks27 {
-    background-image: url(https://d.newsweek.com/en/full/1553750/kansas-jayhawks.webp?w=300&h=200&f=b49b22ab6c73f82c748ea7b3a35dd963);
+  background-image: url(https://d.newsweek.com/en/full/1553750/kansas-jayhawks.webp?w=300&h=200&f=b49b22ab6c73f82c748ea7b3a35dd963);
 }
 
 .picks28 {
-    background-image: url(https://d.newsweek.com/en/full/1553700/eli-manning.webp?w=135&h=90&f=a3150bb11e131ab744c3d5a2cc4d6bcd);
+  background-image: url(https://d.newsweek.com/en/full/1553700/eli-manning.webp?w=135&h=90&f=a3150bb11e131ab744c3d5a2cc4d6bcd);
 }
 
 .picks29 {
-    background-image: url(https://d.newsweek.com/en/full/1553581/new-england-patriots.jpg?w=135&h=90&f=b3ecc2d076aa431f78725215b4bf7f91);
+  background-image: url(https://d.newsweek.com/en/full/1553581/new-england-patriots.jpg?w=135&h=90&f=b3ecc2d076aa431f78725215b4bf7f91);
 }
 
 .picks30 {
-    background-image: url(https://d.newsweek.com/en/full/1553551/buffalo-bills.jpg?w=135&h=90&l=0&t=0&f=9be7f820884ac9aecea94a1936eba0b7);
+  background-image: url(https://d.newsweek.com/en/full/1553551/buffalo-bills.jpg?w=135&h=90&l=0&t=0&f=9be7f820884ac9aecea94a1936eba0b7);
 }
 
 .section-picks article h4 {
-    margin-top: 10px;
-    margin-bottom: 25px;
-}
-
-.section-picks article h4 a {
-    font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
 .section-picks ul h5 {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .section-picks li:first-child {
-    border-top: 0;
-    padding-top: 0;
-}
-.section-picks li {
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  border-top: 0;
+  padding-top: 0;
 }
 
 /* subscribe block */
 
 .subscribe-block {
-    padding-top: 40px;
-    border-top: solid 2px #f4f5f6;
+  padding-top: 40px;
+  border-top: solid 2px #f4f5f6;
 }
 
 .subscribe-block h2 {
-    color: #f72210;
-    font-size: 16px;
+  color: #f72210;
+  font-size: 16px;
 }
 
 .subscribe-block-container {
-    background-color: #f4f5f6;
-    padding: 30px;
-    display: flex;
-    align-items: center;
+  background-color: #f4f5f6;
+  padding: 30px;
+  display: flex;
+  align-items: center;
 }
 
 /* subscribe images */
 
 .subscribe-images {
-    display: block;
-    position: relative;
-    padding-right: 90px;
-    padding-bottom: 13px;
+  display: block;
+  position: relative;
+  padding-right: 90px;
+  padding-bottom: 13px;
 }
 
-.subscribe1, .subscribe2 {
-    width: 170px;
-    height: 228px;
+.subscribe1,
+.subscribe2 {
+  width: 170px;
+  height: 228px;
 }
 
 .subscribe1 {
-    position: absolute;
-    left: 90px;
-    top: 13px;
+  position: absolute;
+  left: 90px;
+  top: 13px;
 }
 
 /* subscribe text */
 
 .subscribe-text {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
-.subscribe-text h3 {
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 15px;
-    color: black;
-}
-
-.subscribe-text p {
-    font-size: 15px;
-    color: #333333;
-    margin-bottom: 25px;
-}
-
-/* newsletter block*/
+/* newsletter block */
 
 .newsletter-block {
-    display: flex;
+  display: flex;
 }
 
 .newsletter-img {
-    display: block;
-    width: 100%;
-    max-width: 191px;
-    background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  display: block;
+  width: 100%;
+  max-width: 191px;
+  background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .newsletter-text {
-    padding: 30px;
-    border: 1px solid #ebebeb;
+  padding: 30px;
+  border: 1px solid #ebebeb;
 }
 
 /* footer */
 
 footer {
-    padding: 30px;
-    border-top: solid 2px #f4f5f6;
+  padding: 30px;
+  border-top: solid 2px #f4f5f6;
 }
 
 .footer-row1 ul {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin-bottom: 12px;
-}
-
-.footer-row1 ul li {
-    margin-left: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 12px;
 }
 
 .footer-row1 ul li:first-of-type {
-    margin-left: 0px;
+  margin-left: 0;
 }
 
 .footer-logo {
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
 
 .footer-logo svg {
-    display: block;
-    fill: #f72210;
-    width: 236px;
-    height: 36px;
-    margin-right: 15px;
-    margin-bottom: 12px;
+  display: block;
+  fill: #f72210;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
 }
 
 .footer-logo .copyright {
-    margin-bottom: 12px;
-    color: #666666;
-    font-size: 12px;
-    line-height: 12px;
-}
-
-.genericon {
-    font-size: 26px;
-    text-align: center;
-    display: block;
-    font-family: "Genericons";
-    cursor: pointer;
+  margin-bottom: 12px;
+  color: #666;
+  font-size: 12px;
+  line-height: 12px;
 }
 
 .icon {
-    display: block;
-    width: 25px;
-    height: 25px;
+  display: block;
+  width: 25px;
+  height: 25px;
 }
 
 .icon i {
-    font-family: IcoFont!important;
-    font-style: normal;
-    font-size: 25px;
-    font-weight: 400;
-    font-variant: normal;
-    text-transform: none;
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    color: #333333;
+  font-family: IcoFont !important;
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  color: #333;
 }
 
 .icon .facebook:hover {
-    color: #3b5998;
+  color: #3b5998;
 }
 
 .icon .facebook::before {
-    content: "\ed37";
+  content: "\ed37";
 }
 
 .icon .twitter:hover {
-    color: #1da1f2;
+  color: #1da1f2;
 }
 
 .icon .twitter::before {
-    content: "\ed7a";
+  content: "\ed7a";
 }
 
 .icon .instagram:hover {
-    color: #405de6;
+  color: #405de6;
 }
 
 .icon .instagram::before {
-    content: "\ed46";
+  content: "\ed46";
 }
 
 .icon .tumblr:hover {
-    color: #35465c;
+  color: #35465c;
 }
 
 .icon .tumblr::before {
-    content: "\ed78";
+  content: "\ed78";
 }
 
 .icon .linkedin:hover {
-    color: #0077b5;
+  color: #0077b5;
 }
 
 .icon .linkedin::before {
-    content: "\ed4d";
+  content: "\ed4d";
 }
 
 /* footer links */
 
 .footer-links {
-    display: flex;
-    flex-wrap: wrap;
-    border-top: 1px solid #d9d9d9;
-    padding-top: 6px;
-    font-size: 14px;
-    line-height: 15px;
-    color: #666;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
 }
 
 .footer-links ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    align-items: flex-end;
-}
-
-.footer-links ul li {
-    border-right: 1px solid #d9d9d9;
-    padding-right: 10px;
-    margin-right: 10px;
-    margin-bottom: 6px;
-    margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  align-items: flex-end;
 }
 
 .footer-links ul li:last-of-type {
-    border-right: none;
-    padding-right: 0;
-    margin-right: 0;
-}
-
-.footer-links ul a {
-    color: #666666;
-}
-
-.footer-links ul li a:hover {
-    color: black;
+  border-right: none;
+  padding-right: 0;
+  margin-right: 0;
 }
 
 .footer-links-edition {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .label {
-    margin-top: 6px;
-    margin-right: 15px;
-    margin-bottom: 0px;
-    line-height: 15px;
-    font-size: 14px;
-    font-weight: bold;
+  margin-top: 6px;
+  margin-right: 15px;
+  margin-bottom: 0;
+  line-height: 15px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .menu {
-    padding-right: 15px;
-    padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /* Media query */
 
-@media screen and (max-width: 991px){
-    .date {
-        display: none;
-    }
+@media screen and (max-width: 991px) {
+  .date {
+    display: none;
+  }
 
-    .wrapper1 {
-        top: 0px;
-    }
+  .wrapper1 {
+    top: 0;
+  }
 
-    .header-links {
-        margin: auto 0;
-        margin-right: 74px;
-    }
+  .header-links {
+    margin: auto 0;
+    margin-right: 74px;
+  }
 
-    .nav-row {
-        height: 50px;
-        align-content: center;
-    }
+  .nav-row {
+    height: 50px;
+    align-content: center;
+  }
 
-    .nav-logo svg{
-        display: block;
-        fill: white;
-        width: 132px;
-        height: 20px;
-        margin: 0;
-    }
-    
-    .nav-logo {
-        position: absolute;
-        transform: translate(0,0);
-        top: 0;
-        bottom: 0;
-        left: 0;
-        padding: 15px;
-    }
+  .nav-logo svg {
+    display: block;
+    fill: white;
+    width: 132px;
+    height: 20px;
+    margin: 0;
+  }
 
-    .hamburger {
-        position: absolute;
-        display: flex;
-        right: 0;
-        top: 0;
-        width: 74px;
-        height: 50px;
-        flex-flow: column;
-        cursor: pointer;
-        justify-content: center;
-    }
+  .nav-logo {
+    position: absolute;
+    transform: translate(0, 0);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+  }
 
-    .hamburger-icon {
-        display: block;
-        width: 30px;
-        height: 4px;
-        background-color: #fb9a94;
-        margin: 4px auto;
-    }
+  .hamburger {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 0;
+    width: 74px;
+    height: 50px;
+    flex-flow: column;
+    cursor: pointer;
+    justify-content: center;
+  }
 
-    .hamburger::before, .hamburger::after {
-        content: "";
-        display: block;
-        width: 30px;
-        height: 4px;
-        background-color: #fb9a94;;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .hamburger-icon {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #fb9a94;
+    margin: 4px auto;
+  }
 
-    nav {
-        display: none;
-    }
+  .hamburger::before,
+  .hamburger::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #fb9a94;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .inverse-seven {
-        display: flex;
-        flex-flow: column-reverse;
-    }
+  .inverse-seven {
+    display: flex;
+    flex-flow: column-reverse;
+  }
 
-    .newsletter-block {
-        flex-flow: column;
-        align-items: center;
-    }
+  .newsletter-block {
+    flex-flow: column;
+    align-items: center;
+  }
 
-    .newsletter-img {
-        height: 160px;
-    }
+  .newsletter-img {
+    height: 160px;
+  }
 
-    .newsletter-text {
-        text-align: center;
-    }
+  .newsletter-text {
+    text-align: center;
+  }
 
-    .newsletter-text h3 {
-        font-size: 20px;
-    }
+  .newsletter-text h3 {
+    font-size: 20px;
+  }
 
-    .footer-logo {
-        display: flex;
-        flex-flow: column;
-        align-items: flex-start;
-    }
+  .footer-logo {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+  }
 
-    .footer-row1 ul {
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
-
+  .footer-row1 ul {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 }
 
-@media screen and (max-width: 767px) and (min-width: 481px){
-    .latest-sign-img {
-        width: 258px;
-    }
+@media screen and (max-width: 767px) and (min-width: 481px) {
+  .latest-sign-img {
+    width: 258px;
+  }
 }
 
-@media screen and (min-width: 767px) and (max-width:991px) {
-
-    .sticky-seven {
-        position: sticky;
-        top: -800px;
-    }
-
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .sticky-seven {
+    position: sticky;
+    top: -800px;
+  }
 }
 
-@media screen and (min-width: 991px){
-    .sticky-section {
-        position: sticky;
-        top: -800px;
-    }
+@media screen and (min-width: 991px) {
+  .sticky-section {
+    position: sticky;
+    top: -800px;
+  }
 
-    .latest-sign-wrapper {
-        position: sticky;
-        top: -400px;
-    }
+  .latest-sign-wrapper {
+    position: sticky;
+    top: -400px;
+  }
 
+  .newsletter-section {
+    display: flex;
+    flex-flow: column;
+  }
 
-    .newsletter-section {
-        display: flex;
-        flex-flow: column;
-    }
-
-    .newsletter-block {
-        display: flex;
-        flex-grow: 1;
-    }
+  .newsletter-block {
+    display: flex;
+    flex-grow: 1;
+  }
 }
