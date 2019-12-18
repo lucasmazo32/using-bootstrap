@@ -116,10 +116,21 @@ body {
 
 /* nav bar */
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
 .wrapper {
     position: relative;
     max-width: 1310px;
     margin: 0 auto;
+}
+
+.nav-wrapper {
+    position: sticky;
+    top: 0;
 }
 
 .nav-row {
@@ -635,9 +646,15 @@ nav {
 
 /* sign up */
 
+.sign-up-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .sign-up {
     margin: 0 20.5px 30px;
     padding: 20px;
+    max-width: 300px;
     background-color: #F4F5F6;
 }
 
@@ -1200,7 +1217,7 @@ nav {
 
 .newsletter-img {
     display: block;
-    width: 300%;
+    width: 100%;
     max-width: 191px;
     background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
     background-repeat: no-repeat;
@@ -1258,7 +1275,6 @@ footer {
 
 .genericon {
     font-size: 26px;
-    vertical-align: top;
     text-align: center;
     display: block;
     font-family: "Genericons";
@@ -1455,15 +1471,66 @@ footer {
     }
 }
 
+@media screen and (max-width: 767px) {
+    .inverse-seven {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    .newsletter-block {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .newsletter-img {
+        height: 160px;
+    }
+
+    .newsletter-text {
+        text-align: center;
+    }
+
+    .newsletter-text h3 {
+        font-size: 20px;
+    }
+
+    .footer-logo {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+    }
+
+    .footer-row1 ul {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 481px){
+    .latest-sign-img {
+        width: 258px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width:991px) {
+
+    .sticky-seven {
+        position: sticky;
+        top: -125%;
+    }
+
+}
+
 @media screen and (min-width: 991px){
     .sticky-section {
         position: sticky;
-        top: -72%;
+        top: -125%;
     }
 
     .latest-sign-wrapper {
         position: sticky;
-        top: -20%;
+        top: -70%;
     }
 
 
