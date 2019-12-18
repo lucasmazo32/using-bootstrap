@@ -78,10 +78,36 @@ body {
     text-transform: uppercase;
 }
 
+.cap {
+    text-transform: capitalize;
+}
+
 /* background */
 
 .cult-bkg {
     background-color: #f4f5f7;;
+}
+
+/* 66 img */ 
+
+.ss-img {
+    display: block;
+    position: relative;
+    padding-bottom: 66.7506%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.tt-img {
+    display: block;
+    position: relative;
+    padding-bottom: 22.2502%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
 /* nav bar */
@@ -914,6 +940,161 @@ nav {
 
 .slideshow-text {
     font-size: 22px;
+}
+
+/* section picks */
+
+.picks-title {
+    border-top: 1px solid #d9d9d9;
+    color: #f72210;
+    padding-top: 25px;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+/* section picks main article */
+
+.picks1 {
+    background-image: url(https://d.newsweek.com/en/full/1553720/pile-100-bills.webp?w=397&h=265&f=af617411173a09417721a95f50ed23b5);
+}
+
+.picks2 {
+    background-image: url(https://d.newsweek.com/en/full/1553723/disney-riviera-resort-2019-opening.webp?w=300&h=200&f=ba8a9b2c2b1e92cc06be9ffbc5ec1658);
+}
+
+.picks3 {
+    background-image: url(https://d.newsweek.com/en/full/1553705/remain-mexico.webp?w=135&h=90&f=60322cd367f113215a6da2dbd7489ffd);
+}
+
+.picks4 {
+    background-image: url(https://d.newsweek.com/en/full/1553690/nj-rep-jeff-van-drew.webp?w=135&h=90&l=46&t=40&f=0233c3542b84cd17e7f71c1d2f3cdb75);
+}
+
+.picks5 {
+    background-image: url(https://d.newsweek.com/en/full/1553689/republican-ad-kristol-times-square.webp?w=135&h=90&f=e1f5b495547f3ca9a9bfa665c63ff354);
+}
+
+.picks6 {
+    background-image: url(https://d.newsweek.com/en/full/1553767/stephen-biegun-south-korea-moon-jae.webp?w=300&h=200&f=f677018e92f2adfce18d9d42b7682b42);
+}
+
+.picks7 {
+    background-image: url(https://d.newsweek.com/en/full/1548026/trump-fox-friends-marie-yovanovitch.webp?w=300&h=200&f=f7c55faeb6a453cf4e621f4d0cb180ee);
+}
+
+.picks8 {
+    background-image: url(https://d.newsweek.com/en/full/1553742/roman-abramovichs-super-yacht-ecstasea.webp?w=135&h=90&f=421561fb6c8c0f3162060b168527c683);
+}
+
+.picks9 {
+    background-image: url(https://d.newsweek.com/en/full/1553708/syria-war-oil-fields-us-military.webp?w=135&h=90&f=eb81efcde86799effa22176c19fe30d5);
+}
+
+.picks10 {
+    background-image: url(https://d.newsweek.com/en/full/1553668/exploded-car.webp?w=135&h=90&f=2d5c0f09c4d54e3262bff726fb3972cd);
+}
+
+.picks11 {
+    background-image: url(https://d.newsweek.com/en/full/1550350/fox-news-carol-roth-millennials.webp?w=300&h=200&f=5604a14b52fcdd78b0957c98500ab6e3);
+}
+
+.picks12 {
+    background-image: url(https://d.newsweek.com/en/full/1550200/giving-tuesday-charity-donations-taxcut.webp?w=300&h=200&f=bc998dfb4d1065fbc0c2e549ac403f92);
+}
+
+.picks13 {
+    background-image: url(https://d.newsweek.com/en/full/1549935/trump-jr-bookstores-triggered-sales.webp?w=135&h=90&f=c7cf9b55dd14b8f1b512b2682d008170);
+}
+
+.picks14 {
+    background-image: url(https://d.newsweek.com/en/full/1549870/fox-trump-economy-black-friday.webp?w=135&h=90&f=249a6af53efa30d362ba9076e75de471);
+}
+
+.picks15 {
+    background-image: url(https://d.newsweek.com/en/full/1549804/amazon-workers-block-friday-protest-series.webp?w=135&h=90&f=04a4187d7f286a87d735ccf987df7efe);
+}
+
+.picks16 {
+    background-image: url(https://d.newsweek.com/en/full/1553649/rob-greenfield-one-year-without-grocery-stores-restaurants.webp?w=300&h=200&f=ae9204ac5e75e41875eec283d8755ddf);
+}
+
+.picks17 {
+    background-image: url(https://d.newsweek.com/en/full/1553671/ring.webp?w=300&h=200&f=a6fa2ba2b77ebaa010bec62203a6bca0);
+}
+
+.picks18 {
+    background-image: url(https://d.newsweek.com/en/full/1553625/easter-island-statues.webp?w=135&h=90&f=ce49650a300d0e5527ff5d944c1a965f);
+}
+
+.picks19 {
+    background-image: url(https://d.newsweek.com/en/full/1553544/spider-huntsman-wolf-spider-stock-getty.webp?w=135&h=90&f=acf9bfde0f4290236917f4120fe4037c);
+}
+
+.picks20 {
+    background-image: url(https://d.newsweek.com/en/full/1553502/phillipines-earthquake.webp?w=135&h=90&f=fdf9c819badc2b9b26ec9a21c552d58b);
+}
+
+.picks21 {
+    background-image: url(https://d.newsweek.com/en/full/1553744/internet-drooling-over-kumani-nanjanis-eternals-transformation.webp?w=300&h=200&f=d1e614e97a22cc1b1e5d10f723165ec8);
+}
+
+.picks22 {
+    background-image: url(https://d.newsweek.com/en/full/1553677/where-are-voice-winners-now.webp?w=300&h=200&f=efe3a0be45bfbb88e9b2ab44f7d8ea98);
+}
+
+.picks23 {
+    background-image: url(https://d.newsweek.com/en/full/1546672/mad-about-you-2019.webp?w=135&h=90&f=ffaa53c5cf563ee098cd9dd740b36ce1);
+}
+
+.picks24 {
+    background-image: url(https://d.newsweek.com/en/full/1553589/witcher-netflix-release-date.webp?w=135&h=90&l=36&t=14&f=fc102f56d2df3cc9181ba63f2eece037);
+}
+
+.picks25 {
+    background-image: url(https://d.newsweek.com/en/full/1553637/rise-skywalker-reviews-embergo.webp?w=135&h=90&l=66&t=31&f=d9259b3e56ee22c1cca73a0e5abc8ea8);
+}
+
+.picks26 {
+    background-image: url(https://d.newsweek.com/en/full/1553577/drew-brees-new-orleans-saints.webp?w=300&h=200&f=ce29d3e77ad6a5c17f294a3d4413427e);
+}
+
+.picks27 {
+    background-image: url(https://d.newsweek.com/en/full/1553750/kansas-jayhawks.webp?w=300&h=200&f=b49b22ab6c73f82c748ea7b3a35dd963);
+}
+
+.picks28 {
+    background-image: url(https://d.newsweek.com/en/full/1553700/eli-manning.webp?w=135&h=90&f=a3150bb11e131ab744c3d5a2cc4d6bcd);
+}
+
+.picks29 {
+    background-image: url(https://d.newsweek.com/en/full/1553581/new-england-patriots.jpg?w=135&h=90&f=b3ecc2d076aa431f78725215b4bf7f91);
+}
+
+.picks30 {
+    background-image: url(https://d.newsweek.com/en/full/1553551/buffalo-bills.jpg?w=135&h=90&l=0&t=0&f=9be7f820884ac9aecea94a1936eba0b7);
+}
+
+.section-picks article h4 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.section-picks article h4 a {
+    font-size: 22px;
+}
+
+.section-picks ul h5 {
+    font-size: 17px;
+}
+
+.section-picks li:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+.section-picks li {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Media query */
