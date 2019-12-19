@@ -664,9 +664,6 @@ nav {
   margin-top: 1rem;
 }
 
-/* continue main section */
-
-
 /* Opinion column */
 
 .pic1 {
@@ -1293,7 +1290,7 @@ footer {
 }
 
 .icon i {
-  font-family: IcoFont !important;
+  font-family: IcoFont, sans-serif !important;
   font-style: normal;
   font-size: 25px;
   font-weight: 400;
