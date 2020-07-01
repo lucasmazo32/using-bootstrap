@@ -19,6 +19,6 @@ One has to download it and run the index.html in the browser.
 
 ## Authors
 
-* **Lucas Mazo**
+**Lucas Mazo**
 
-[lucasmazo32](https://github.com/lucasmazo32)
+- Github: [lucasmazo32](https://github.com/lucasmazo32)
