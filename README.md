@@ -1,6 +1,8 @@
 # Responsive design
 
-This is a layout clone of the webpage https://www.newsweek.com/
+Responsive design is a project that clones the page https://www.newsweek.com/.
+
+It is built using bootstrap.
 
 ## Screenshot
 
@@ -12,16 +14,10 @@ One has to download it and run the index.html in the browser.
 
 ## Built With
 
+* Bootstrap
 * [VS Code](https://code.visualstudio.com/) - Code editor used
 
 ## Authors
 
-* **Lucas Mazo** - *Initial work* - [lucasmazo32](https://github.com/lucasmazo32)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Thanks for The Next Web for having such a fun layout and responsive design to replicate.
+* **Lucas Mazo**
+- [lucasmazo32](https://github.com/lucasmazo32)
