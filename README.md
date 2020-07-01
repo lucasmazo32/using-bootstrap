@@ -20,4 +20,5 @@ One has to download it and run the index.html in the browser.
 ## Authors
 
 * **Lucas Mazo**
-- [lucasmazo32](https://github.com/lucasmazo32)
+
+[lucasmazo32](https://github.com/lucasmazo32)
