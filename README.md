@@ -17,8 +17,10 @@ One has to download it and run the index.html in the browser.
 * Bootstrap
 * [VS Code](https://code.visualstudio.com/) - Code editor used
 
-## Authors
+# Contact
 
-**Lucas Mazo**
+Lucas Mazo:
 
+- Twitter: [@lucasmazo32](https://twitter.com/lucasmazo32)
 - Github: [lucasmazo32](https://github.com/lucasmazo32)
+- LinkedIn: [Lucas Mazo](https://www.linkedin.com/in/lucasmazo/)
